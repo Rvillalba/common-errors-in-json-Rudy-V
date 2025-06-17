@@ -91,11 +91,15 @@ const invalidBookingJSON =
 💬 Reflect and answer the following:
 
 1️⃣ What tools or techniques did you use to identify the errors?
+Reading the code line by line and looking for syntax errors was the main technique. JSONLint was the tool used for validation.
 
 2️⃣ How did you confirm that your corrected JSON file was valid?
+JSONLint confirmed that all the changes created a valid JSON file.
 
 3️⃣ Which errors were the most difficult to spot? Why?
+Haanging commas are easy to miss and require close attention.
 
 4️⃣ What strategies can help you avoid these kinds of errors in the future?
    (e.g., syntax highlighting, linters, writing JSON by example)
+   Linters and code editors are invaluable in spotting easy-to-miss syntax errors in real time.
 */
